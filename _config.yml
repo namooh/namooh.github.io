@@ -1,8 +1,8 @@
 # Site Info
 title:              "Hooman Javaheri"
 description:        "My personal homepage."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+google_verify:      "EwkXeHIGLZVa-Bj1m8rqbzVGM4GQc9J0NB21_aXyzxI" # Put your Google Verification here
+google_analytics:   "UA-16382391-2" # Put your Google Analytics code
 
 # Author Info
 author_name:        "Hooman Javaheri" # Your name here
@@ -28,7 +28,7 @@ sass:
 # Other Params
 include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
-gems:
+plugins:
   - jekyll-sitemap
 
 
