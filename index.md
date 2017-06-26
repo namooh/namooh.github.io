@@ -16,7 +16,7 @@ The best way to reach me is email:
 `{MY_FIRST_INITIAL} DOT {MY_LAST_NAME} AT gmail DOT com`
 {: style="text-align: center;"}
 
-you can also find me in:
+you can also find me on:
 
 <div align="center">
   <a href="https://snapchat.com/add/hjavaheri" style="border: 0px">
