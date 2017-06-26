@@ -121,13 +121,13 @@ iframe {
 }
 ul,
 ol {
-  margin: 40px 0;
-  padding-left: 50px;
+  margin: 30px 0;
+  padding-left: 30px;
   li {
     word-wrap: break-word;
   }
   img {
-    margin: 40px 0;
+    margin: 30px 0;
     border-radius: 5px;
   }
 }
@@ -224,7 +224,8 @@ article {
     padding-right: 2px;
   }
   .footnotes {
-    margin: 50px auto;
+    margin: 10px auto;
+    border-top: 1px solid #555;
     display: block;
     p {
       line-height: 1rem;
@@ -364,4 +365,54 @@ section {
   100% {
     -webkit-transform: none;
   }
+}
+.snapchat {
+    display: inline-flex;
+    background-image: url("snapchat.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.snapchat:hover {
+    background-image: url("snapchat-color.png")
+}
+.twitter {
+    display: inline-flex;
+    background-image: url("twitter.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.twitter:hover {
+    background-image: url("twitter-color.png")
+}
+.instagram {
+    display: inline-flex;
+    background-image: url("instagram.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.instagram:hover {
+    background-image: url("instagram-color.png")
+}
+.linkedin {
+    display: inline-flex;
+    background-image: url("linkedin.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.linkedin:hover {
+    background-image: url("linkedin-color.png")
+}
+.github {
+    display: inline-flex;
+    background-image: url("github.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+}
+.github:hover {
+    background-image: url("github-color.png")
 }
