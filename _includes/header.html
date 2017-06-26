@@ -1,11 +1,16 @@
 <aside class="logo">
 
-	{% assign link = '/' %}
-	{% assign prompt = 'Back to Home' %}
+  {% assign link = '/' %}
+  {% assign prompt = 'Back to Home' %}
 
-    <a href="{{ link | prepend: site.baseurl }}">
-		<img src="assets/hi.png?s=100" class="gravatar">
-        </a>	<span class="logo-prompt">{{ prompt }}</span>
+  {% if page.url == '/academic.html' or page.url == '/academic' %}
+    {% assign photo = 'phd.png' %}
+  {% else %}
+    {% assign photo = 'hi.png' %}
+  {% endif %}
 
+  <a href="{{ link | prepend: site.baseurl }}">
+    <img src="assets/{{ photo }}?s=100" class="gravatar">
+  </a> <span class="logo-prompt">{{ prompt }}</span>
 
 </aside>
