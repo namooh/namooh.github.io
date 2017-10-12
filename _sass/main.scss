@@ -1,9 +1,24 @@
+@font-face {
+  font-family: Charter;
+  src: url(charter_regular-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: Charter;
+  src: url(charter_italic-webfont.woff) format('woff');
+  font-style: italic;
+}
+@font-face {
+  font-family: Charter;
+  src: url(charter_bold-webfont.woff) format('woff');
+  font-weight: bold;
+}
 body {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 21px;
   font-weight: normal;
   font-style: normal;
-  font-family: consolas, monaco, courier, "courier new", fixed-width;
+  font-family: Charter, consolas, monaco, courier, "courier new", fixed-width;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -148,14 +163,14 @@ code {
   color: #f14e32;
   background: #eee;
   padding: 2px 6px;
-  font-size: 13px;
+  font-size: 15px;
 }
 pre {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 0.8rem;
-  line-height: 1.4;
+  font-size: 15px;
+  line-height: 21px;
   white-space: pre;
   overflow-x: auto;
   background-color: #f9f9f9;
@@ -212,8 +227,8 @@ article {
     margin: 30px 0;
   }
   p {
-    font-size: 15px;
-    line-height: 1.9em;
+    font-size: 16px;
+    line-height: 21px;
     word-wrap: break-word;
   }
   .footnote {
